@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aquadir/.gradle/caches/transforms-3/2b6895984e3c783a515321584c673003/transformed/material-1.7.0/res/drawable/navigation_empty_icon.xml" value="0.1" />
+        <entry key="..\:/Users/aquadir/AndroidStudioProjects/MyCustomViews/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.116" />
+        <entry key="..\:/Users/aquadir/AndroidStudioProjects/MyCustomViews/app/src/main/res/layout/activity_main.xml" value="0.12681159420289856" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
