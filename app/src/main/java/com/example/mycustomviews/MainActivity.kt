@@ -1,24 +1,19 @@
 package com.example.mycustomviews
 
 import android.os.Bundle
-import android.view.View
-import android.widget.Toast
+import android.view.View.SYSTEM_UI_FLAG_FULLSCREEN
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mycustomviews.customeViews.CustomFanController
+import com.example.mycustomviews.customeViews.MyCanvas
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var customView : CustomFanController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-        customView = findViewById(R.id.dialView)
+        var myCanvas = MyCanvas(this@MainActivity)
+        myCanvas.systemUiVisibility = SYSTEM_UI_FLAG_FULLSCREEN
 
-        customView.setOnClickListener(View.OnClickListener {
-            // Do something here
-            Toast.makeText(this@MainActivity, "Start Position", Toast.LENGTH_SHORT).show()
+        setContentView(myCanvas)
 
-        })
     }
 }
